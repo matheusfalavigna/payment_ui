@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  payment_ui
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Tecnologias
 
-Currently, two official plugins are available:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.js
+- TypeScript
+- Axios
+- Material UI
+- Styled Components
+- React Router Dom
+- React Hook Form
 
-## Expanding the ESLint configuration
+## 🔖 Configurações
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Clone o repositório:
+```
+[https://github.com/matheusfalavigna/payment_api.git](https://github.com/matheusfalavigna/payment_ui.git)
+```
+Instale as dependências:
+```
+npm install
+ou
+yarn install
+```
+Rodando a API (O front estará rodando na porta 3000 por padrão):
+```
+npm run dev
+ou
+yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## 💻 Projeto
+
+Este projeto é o frontend do Sistema de Pagamentos, responsável pela interface de usuário e interação com a API. Ele permite que usuários criem, visualizem e gerenciem pagamentos.
+
+
+
