@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Clone o repositório:
 ```
-[https://github.com/matheusfalavigna/payment_api.git](https://github.com/matheusfalavigna/payment_ui.git)
+https://github.com/matheusfalavigna/payment_ui.git
 ```
 Instale as dependências:
 ```
